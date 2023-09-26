@@ -1,0 +1,43 @@
+body{
+    height: 90vh;
+    display:grid;
+    place-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(150,200,100);
+}
+
+.card{
+    width: 60%;
+    height: 85vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 2rem;
+}
+
+.box{
+    width:85%;
+    height:65vh;
+    display: grid;
+    place-items: center;
+}
+
+img{
+    width:65%;
+    height:65vh;
+    padding: 0;
+    margin:0;
+    border-radius: 1.5rem;
+    border: 3px solid black;
+    background:no-repeat;
+    object-fit: cover;
+}
+
+button{
+    width:15rem;
+    text-align: center;
+    font-weight: 1000;
+    border: 2px solid black;
+    cursor: pointer;
+}
